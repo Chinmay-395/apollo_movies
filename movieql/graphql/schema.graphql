@@ -1,9 +1,13 @@
-type Nicolas {
+type Person {
+  id: Int!
   name: String!
   age: Int!
   gender: String!
 }
 
 type Query {
-  person: Nicolas! #exclaimation means required
+  people: [Person]!
+  person(id: Int!): Person
+  #exclaimation means required
+  #brackets mean returning an array
 }
