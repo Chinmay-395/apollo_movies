@@ -11,6 +11,12 @@ Its more efficient to have the control of the kind of data we are fetching on th
 
 # The backend
 
+## Graphql components
+
+• A **_Query_** is only when you get data
+• A **_Mutation_** is when change data
+• A **_Resolver_** will generate answer to the query
+
 • Setting up our grapqhl
 ◘ create a schema
 ◘ write a resolver to reply the query

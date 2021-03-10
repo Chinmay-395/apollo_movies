@@ -10,3 +10,9 @@ type Query {
   #exclaimation means required
   #brackets mean returning an array
 }
+
+# The Mutation is defined here
+type Mutation {
+  addMovie(name: String!, score: Int!): Movie!
+  deleteMovie(id: Int!): Boolean!
+}
